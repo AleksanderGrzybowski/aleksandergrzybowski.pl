@@ -1,0 +1,17 @@
+{
+  "name": "aleksandergrzybowski.pl",
+  "version": "1.0.0",
+  "description": "Responsive HTML5 website template for developers - AG modified",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.4.0",
+    "gulp-watch": "^5.0.0"
+  }
+}
