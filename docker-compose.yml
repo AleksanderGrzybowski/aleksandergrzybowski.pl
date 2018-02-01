@@ -1,0 +1,8 @@
+version: '2'
+services:
+  frontend:
+    image: ag-frontend
+    build: .
+    ports:
+      - 61925:80
+    restart: always

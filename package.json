@@ -4,7 +4,8 @@
   "description": "Responsive HTML5 website template for developers - AG modified",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "build": "gulp build"
   },
   "author": "",
   "license": "ISC",
