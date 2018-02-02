@@ -22,7 +22,7 @@ a {
   .transition (all 0.4s ease-in-out);
   &:hover {
     text-decoration: underline;
-    color: darken(@color-2, 5%);
+    color: lighten(@color-2, 10%);
   }
   &:focus {
     text-decoration: none;
@@ -382,6 +382,10 @@ a.dotted-link {
     .level-bar-inner {
       height: 15px;
       background: lighten(@color-2, 0%);
+      .transition (all 0.4s ease-in-out);
+      &:hover {
+        background: lighten(@color-2, 10%);
+      }
     }
   }
 
