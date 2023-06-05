@@ -113,33 +113,28 @@
             <div class="item row">
               <a
                   class="col-md-4 col-sm-4 col-xs-12"
-                  href="https://github.com/AleksanderGrzybowski/kelog.pl/tree/master/kubernetes"
+                  href="http://grafana.kelog.pl/d/rYdddlPWk/node-exporter-full?orgId=1&from=now-24h&to=now&var-DS_PROMETHEUS=default&var-job=node&var-node=kelog.pl:9100&var-diskdevices=%5Ba-z%5D%2B%7Cnvme%5B0-9%5D%2Bn%5B0-9%5D%2B%7Cmmcblk%5B0-9%5D%2B"
                   target="_blank"
               >
-                <img class="img-responsive project-image" src="assets/images/devops.png" alt="devops icon"/>
+                <img class="img-responsive project-image" src="assets/images/prometheus-grafana.png" alt="devops icon"/>
               </a>
               <div class="desc col-md-8 col-sm-8 col-xs-12">
                 <h3 class="title">
-                  <a href="https://github.com/AleksanderGrzybowski/kelog.pl/tree/master/kubernetes" target="_blank">
-                    DevOps demos
+                  <a href="http://grafana.kelog.pl/d/rYdddlPWk/node-exporter-full?orgId=1&from=now-24h&to=now&var-DS_PROMETHEUS=default&var-job=node&var-node=kelog.pl:9100&var-diskdevices=%5Ba-z%5D%2B%7Cnvme%5B0-9%5D%2Bn%5B0-9%5D%2B%7Cmmcblk%5B0-9%5D%2B" target="_blank">
+                    This Kubernetes cluster monitoring (plus my laptop)
                   </a>
                 </h3>
                 <p>
-                  Working deployments of popular DevOps tools.
+                  Prometheus monitoring setup for this cluster and my latop over OpenVPN connection.
                 </p>
                 <p>
                   <a
                       style="margin-left: 0;"
                       class="more-link left-margin"
-                      href="https://github.com/AleksanderGrzybowski/kelog.pl/tree/master/kubernetes"
+                      href="https://github.com/AleksanderGrzybowski/kelog.pl/tree/master/kubernetes/infra"
                       target="_blank"
                   >
                     <i class="fa fa-github"></i> Source
-                  </a>
-                </p>
-                <p>
-                  <a class="more-link" href="http://grafana.kelog.pl/d/rYdddlPWk/node-exporter-full?orgId=1&from=now-24h&to=now&var-DS_PROMETHEUS=default&var-job=node&var-node=kelog.pl:9100&var-diskdevices=%5Ba-z%5D%2B%7Cnvme%5B0-9%5D%2Bn%5B0-9%5D%2B%7Cmmcblk%5B0-9%5D%2B" target="_blank">
-                    <i class="fa fa-external-link"></i> Grafana/Prometheus
                   </a>
                 </p>
               </div>
@@ -364,13 +359,19 @@
               <ul>
                 <li>
                   <p>
-                    Building and supporting infrastructure for running <a href="https://www.elliemae.com/aiq" target="_blank">mortgage automation software</a>,
+                    Building and supporting AWS infrastructure for running <a href="https://www.elliemae.com/aiq" target="_blank">mortgage automation software</a>,
                     including configuration of cloud services and everyday maintenance.
                   </p>
                 </li>
                 <li>
                   <p>
-                    Introducing and enforcing infrastructure-as-a-code paradigms into everyday teamwork, 
+                    Working with engineering and QA teams to create solutions that fit the current business context
+                    (comprehensive logging and metrics, finance-level security, performance).
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Introducing and enforcing infrastructure-as-a-code (IaC) paradigms into everyday teamwork,
                     using Terraform, Ansible, Jenkins Configuration as Code and other tools.
                   </p>
                 </li>
@@ -394,19 +395,19 @@
                 <li>
                   <p>
                     Planned and successfully performed application migration from on-premise ESXi infrastructure
-                    to cloud Kubernetes (OpenShift) service, with minimal downtime and no data loss.
+                    to cloud Kubernetes (OpenShift) managed service.
                   </p>
                 </li>
                 <li>
                   <p>
-                    Extended and enforced industry-standard DevOps practices, including full CI/CD, log aggregation,
-                    monitoring and metrics, using popular Open Source solutions.
+                    Introduced industry-standard DevOps practices, including full CI/CD, log aggregation,
+                    monitoring and metrics, using only Open Source solutions.
                   </p>
                 </li>
                 <li>
                   <p>
                     Developed backend of web application used to track employee work time. Single-handedly implemented
-                    integration with RFID attendance terminals around the world.
+                    integration with RFID attendance terminals located around the world.
                   </p>
                 </li>
               </ul>
@@ -419,16 +420,15 @@
               <ul>
                 <li>
                   <p>
-                    Was responsible for provisioning, monitoring and everyday maintenance of production servers and applications
-                    using Jenkins/Gitlab-CI, Icinga and standard Linux tools.
-                    Helped teams with 
+                    Was responsible for provisioning, monitoring and everyday maintenance of production servers
+                    using Jenkins/Gitlab-CI, Icinga and standard Linux tools. Helped teams with
                     <a href="https://itsilesia.com/how-gitlab-helps-us-move-fast-at-itsilesia/">CI/CD pipelines</a>
                     and automating deployments.
                   </p>
                 </li>
                 <li>
                   <p>
-                    Implemented and took part in onsite realization of
+                    Implemented and took part in physical onsite realization of
                     <a
                         href="https://itsilesia.com/portfolio/fabularyzowana-terenowa-gra-dla-wodnego-parku-tychy/"
                         target="_blank"
@@ -447,7 +447,7 @@
                   <p>
                     Developed <a href="http://itsilesia.com/portfolio/skansen-chorzow-wirtualne-muzeum" target="_blank">custom CMS solution</a>
                     providing centralized media datastore to a set of
-                    mobile 3D apps, implemented as proprietary Wordpress plugin and backed by Grails webservice.
+                    mobile 3D apps, implemented as proprietary WordPress plugin and backed by Grails webservice.
                   </p>
                 </li>
               </ul>
@@ -496,21 +496,21 @@
               </div>
               
               <div class="item">
-                <h3 class="level-title">Kubernetes, Docker, EKS</h3>
+                <h3 class="level-title">Kubernetes <i class="fa fa-star"></i>, Docker, EKS</h3>
                 <div class="level-bar">
                   <div class="level-bar-inner" style="width: 100%"></div>
                 </div>
               </div>
 
               <div class="item">
-                <h3 class="level-title">AWS, Ansible, Terraform, IaC</h3>
+                <h3 class="level-title">AWS <i class="fa fa-star"></i>, Ansible, Terraform, IaC</h3>
                 <div class="level-bar">
                   <div class="level-bar-inner" style="width: 100%"></div>
                 </div>
               </div>
               
               <div class="item">
-                <h3 class="level-title">Jenkins, CI/CD, test automation</h3>
+                <h3 class="level-title">Jenkins, CI/CD, process design</h3>
                 <div class="level-bar">
                   <div class="level-bar-inner" style="width: 100%"></div>
                 </div>
