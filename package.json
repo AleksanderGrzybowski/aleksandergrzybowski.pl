@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "browser-sync": "^2.23.6",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-less": "^3.4.0",
     "gulp-watch": "^5.0.0"
   }
